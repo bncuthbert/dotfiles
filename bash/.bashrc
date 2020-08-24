@@ -90,6 +90,7 @@ fi
 
 unset use_color safe_term match_lhs sh
 
+# Aliases
 alias cp="cp -i"                          # confirm before overwriting something
 alias mv="mv -i"
 alias la="ls -A"
@@ -97,6 +98,10 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
+alias gs='git status'
+alias wm='
+cd ~/phd/cuthbert-et-al-2020/
+source venv/bin/activate'
 
 xhost +local:root > /dev/null 2>&1
 
