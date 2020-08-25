@@ -11,9 +11,12 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdcommenter'
 Plug 'itchyny/lightline.vim'
+Plug 'mhinz/vim-signify'
 
 call plug#end()
 
 " Misc
 set laststatus=2
 set noshowmode
+set number
+set updatetime=100 "for faster vim-signify updates
