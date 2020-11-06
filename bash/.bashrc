@@ -102,6 +102,9 @@ alias gs='git status'
 alias wm='
 cd ~/phd/cuthbert-et-al-2020/
 source venv/bin/activate'
+alias zk='
+cd ~/phd/zettelkasten/
+source ~/envs/zk/bin/activate'
 
 xhost +local:root > /dev/null 2>&1
 
