@@ -105,6 +105,9 @@ source venv/bin/activate'
 alias zk='
 cd ~/phd/zettelkasten/
 source ~/envs/zk/bin/activate'
+alias nhl='
+cd ~/phd/nhl-data/
+source nhl-env/bin/activate'
 
 xhost +local:root > /dev/null 2>&1
 
