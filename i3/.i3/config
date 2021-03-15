@@ -305,7 +305,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
 # move workspaces to correct monitors
-exec --no-startup-id move $ws1 to output left 
+exec --no-startup-id move $ws1 to output right
 exec --no-startup-id move $ws3 to output left 
 exec --no-startup-id move $ws2 to output right 
 exec --no-startup-id move $ws4 to output right 
