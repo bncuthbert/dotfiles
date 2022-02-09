@@ -108,6 +108,8 @@ source ~/envs/zk/bin/activate'
 alias nhl='
 cd ~/phd/nhl-data/
 source nhl-env/bin/activate'
+alias matlab='
+/usr/local/MATLAB/R2021a/bin/matlab &'
 
 xhost +local:root > /dev/null 2>&1
 
